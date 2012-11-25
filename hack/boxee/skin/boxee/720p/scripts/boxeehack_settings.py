@@ -59,7 +59,7 @@ def livetvcatchup_function():
 
 def version_function():
     import urllib2
-    u = urllib2.urlopen('https://raw.github.com/boxeehacks/boxeehack/master/hack/version')
+    u = urllib2.urlopen('https://raw.github.com/gadgetchnnel/boxeehack/master/hack/version')
     version_remote = "%s" % u.read()
     version_local = file_get_contents("/data/hack/version")
 

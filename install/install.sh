@@ -8,7 +8,7 @@ dtool 6 2 0 0
 rm -Rf /download/boxeehack-master
 rm /download/boxeehack.zip
 cd /download
-/bin/busybox wget http://nodeload.github.com/boxeehacks/boxeehack/zip/master -O boxeehack.zip
+/bin/busybox wget http://nodeload.github.com/gadgetchnnel/boxeehack/zip/master -O boxeehack.zip
 /bin/busybox unzip boxeehack.zip
 
 # copy the hack folder, make the hack run at boot, and clean up
